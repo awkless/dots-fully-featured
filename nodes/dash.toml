@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Jason Pena <jasonpena@awkless.com>
+# SPDX-License-Identifier: MIT
+
+[settings]
+deployment = "bare_alias"
+url = "git@github.com:awkless/dots-dash.git"
+excluded = ["README*", "LICENSE*"]
+dependencies = ["polyglot_ps1"]

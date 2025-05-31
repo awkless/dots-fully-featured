@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2025 Jason Pena <jasonpena@awkless.com>
+# SPDX-License-Identifier: MIT
+
+[settings]
+deployment = { kind = "bare_alias", work_dir_alias = "$HOME/.local/share" }
+url = "git@github.com:awkless/polyglot.git"
+excluded = [
+  ".github/",
+  "img/",
+  ".gitignore",
+  ".vimrc.local",
+  "LICENSE*",
+  "README*",
+  "*.zsh",
+]

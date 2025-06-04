@@ -3,3 +3,4 @@
 
 [settings]
 work_dir_alias = "config_dir"
+excluded = ["LICENSE*", "README*"]
